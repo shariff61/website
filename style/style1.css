@@ -1,0 +1,138 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 10px;
+  line-height: 1;
+  background-color: #eee;
+  /* width: 1200px; */
+}
+.container {
+  background-color: #fff;
+  width: 1300px;
+  margin: 0 auto;
+}
+.imgs {
+  height: 50px;
+  width: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9.6rem 4.8rem;
+  background-color: #20c997;
+}
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+  gap: 2.5rem;
+}
+.nav-bar a:link,
+.nav-bar:visited {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.nav-bar li:last-child {
+  background-color: #ffe066;
+
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0.8rem 2.4rem;
+}
+
+/* first section */
+.italian-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  margin: 9.6rem 4.8rem;
+}
+.heading {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 4.8rem;
+}
+.param {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.5px;
+}
+.italian-img img {
+  width: 500px;
+  height: 70vh;
+  display: block;
+  margin-right: 0px;
+  margin: auto;
+  border-radius: 8px;
+}
+.btn {
+  border: none;
+}
+.btn a:link,
+.btn a:visited {
+  text-decoration: none;
+  border-radius: 1.2rem;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0.8rem 2.4rem;
+  display: inline-block;
+  border: none;
+}
+.btn-1 a:link,
+.btn1 a:visited {
+  background-color: #ffe066;
+  color: #eee;
+}
+.btn-1 a:hover,
+.btn1 a:active {
+  background-color: #20c997;
+}
+.btn-2 a:link,
+.btn-2 a:visited {
+  background-color: #eee;
+  border: 1px solid #444;
+  color: #000;
+}
+.btn-2 a:hover,
+.btn-2 a:active {
+  background-color: crimson;
+}
+
+/* hall section */
+.hall-room {
+  margin: 9.6rem;
+  position: relative;
+}
+.hall-img {
+  border-radius: 0.8rem;
+  opacity: 1;
+}
+.hall-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.heading-two {
+  font-size: 3.2rem;
+  color: #eee;
+  margin-bottom: 2.4rem;
+}
+.btn-3 {
+  border-radius: 1.2rem;
+  margin-left: 4rem;
+}
+.btn-3 a {
+  border: none !important;
+}
